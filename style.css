@@ -2,7 +2,8 @@
 
 body{
     color: white;
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif; 
+    background-color: #fdf2f8;  
 }
 
 .container{
@@ -15,7 +16,7 @@ body{
     margin: auto;
     margin-top: -1rem;
     background-color: #fbcfe8;
-    border: 4px solid #f43f5e;
+    border: 2px solid #f43f5e;
     border-radius: 5px;
 }
 
@@ -25,7 +26,7 @@ h1{
     line-height: 1.1;  
     margin-top: 1rem;
     font-size: 3rem;
-    text-shadow: 4px 4px 8px #f43f5e;
+    text-shadow: 0px 0px 16px #f43f5e;
 }
 
 .heading{
@@ -34,7 +35,7 @@ h1{
     width: 40vw;
     margin: auto;
     margin-top: -2rem;
-    text-shadow: 2px 2px 4px #f43f5e;
+    text-shadow: 1px 1px 4px black,2px 2px 4px #f43f5e;
 }
 
 label{
@@ -42,10 +43,11 @@ label{
     font-size: 1.6rem;
     font-weight: bold;
     margin-bottom: -1rem;
+    text-shadow: 2px 2px 4px white,2px 2px 8px black;
 }
 input{
     font-size: 1.2rem;
-    border: 4px solid #f43f5e;
+    border: 2px solid #f43f5e;
     margin: auto;
     height: 2.5rem;
     width: 35%;
@@ -90,14 +92,16 @@ h2{
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 4.5rem;
-    background-color: #000000;
+    height: 5rem;
+    background-color: #fbcfe8;
+    opacity: 0.8;
     justify-content: center;
+    border: 2px solid #f43f5e;
   }
   .footer p{
     margin-top: 1rem;
     margin-bottom: auto;
-    color: white;
+    color: black;
     font-size: 1rem;
     text-align: center;
   }
@@ -116,7 +120,7 @@ h2{
   }
  
   .links .fa-brands{
-    color: white;
+    color: black;
     font-size: 1.2rem;
     transition: .2s;
   }
