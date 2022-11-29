@@ -35,6 +35,6 @@ function checkLuck(dob,lucky){
         message.innerHTML="";
     }else{
         luckReturn.innerHTML="Seems that You're Not Lucky";
-        message.innerHTML="This was Just for Fun, No Numerology Added !";
+        message.innerHTML="*Attention : This was Just for Fun, No Numerology Added !*";
     }
 }
