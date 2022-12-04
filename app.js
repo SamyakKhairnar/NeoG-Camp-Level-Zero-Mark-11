@@ -10,6 +10,9 @@ checkButton.addEventListener("click",function validateInput(){
     if(luckyNumber.value=="" || birthDate.value==""){
         luckReturn.style.display = "none";
         message.innerHTML="Both Inputs are Required to Know Your Luck";
+    }else if(parseInt(luckyNumber.value) <= 0){
+        luckReturn.style.display = "none";
+        message.innerHTML="Lucky Number should be Greater than Zero !";
     }else{
         luckReturn.style.display = "block";
         const newDate = birthDate.value.replaceAll("-","") 
