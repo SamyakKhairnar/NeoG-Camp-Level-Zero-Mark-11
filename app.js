@@ -34,9 +34,12 @@ function checkLuck(dob,lucky){
     var abc = dob%lucky;
     console.log(abc);
     if(dob%lucky===0){
+        luckReturn.style.color = "#6d28d9";
         luckReturn.innerHTML="You're Very Lucky !";
         message.innerHTML="";
     }else{
+        luckReturn.style.color = "red";
+        message.style.color = "red";
         luckReturn.innerHTML="Seems that You're Not Lucky";
         message.innerHTML="*Attention : This was Just for Fun, No Numerology Added !*";
     }
